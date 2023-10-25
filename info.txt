@@ -1,0 +1,27 @@
+powershell
+cd C:\Users\User\Desktop\сайты\sfeduProject\night-dzr-backend-master
+docker-compose up
+
+cd C:\Users\User\Desktop\сайты\sfeduProject\night-dzr-backend-master
+poetry shell
+uvicorn src.main:app --reload
+
+user1
+user@example123.com
+string2222
+
+user2
+user@example123456.com
+string22222
+
+Запросы:
+games -> Post {game_id} - обьединение загадки и игры 
+
+tasks:
+id
+
+game:
+id
+
+2023-10-25 15:30:33
+2023-10-25 22:30:33

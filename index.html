@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="vievport" content="width=device-widtgh, initial-scale=1.0" />
+    <title>Main page</title>
+    <link rel="stylesheet" href="styles/index-styles.css" />
+  </head>
+  <body>
+    <div class="inscription">
+      <h1 class="inscriptionH1">НОЧНОЙ ДОЗОР</h1>
+    </div>
+    <div class="half-circle"></div>
+    <div class="div-p">
+      <p class="circle-p">ВХОД</p>
+    </div>
+    <div class="menu"></div>
+
+    <div class="circle"></div>
+
+    <div class="form">
+      <form action="#" method="post">
+        <div class="incorrectData none">
+          <p class="incorrectDataText">Неверный логин или пароль</p>
+        </div>
+        <div class="input-block">
+          <div class="img">
+            <img src="images/email.png" class="img-form-email" />
+          </div>
+          <input
+            type="text"
+            placeholder="Почта"
+            name="inputForm"
+            class="input"
+            value=""
+          />
+        </div>
+        <div class="password-block">
+          <div class="img">
+            <img src="images/lock.png" class="img-form" />
+          </div>
+          <input
+            type="password"
+            placeholder="Пароль"
+            name="passwordForm"
+            class="password"
+            value=""
+          />
+        </div>
+        <div class="checkbox-row">
+          <div class="checkbox"></div>
+          <span class="span-checkbox">Не выходить из системы</span>
+        </div>
+      </form>
+    </div>
+    <button class="link">Вход</button>
+
+    <script src="scripts/index-script.mjs" type="module"></script>
+  </body>
+</html>

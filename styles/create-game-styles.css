@@ -1,0 +1,295 @@
+/* обнуление стилей */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+ul,
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+address {
+  font-style: normal;
+}
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+input::-ms-clear {
+  display: none;
+}
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+label {
+  cursor: pointer;
+}
+legend {
+  display: block;
+}
+
+/* стили */
+
+body {
+  background: no-repeat center/100%
+    url("../background-img/background-picture-1.png");
+  height: 100vh;
+}
+
+.main-block {
+  width: 80.7vw;
+  height: 85.32vh;
+  margin-left: 8.85vw;
+  margin-right: 10.41vw;
+  margin-top: 7.39vh;
+  margin-bottom: 10.41vh;
+  background-color: rgba(0, 0, 0, 1);
+  opacity: 0.55;
+}
+
+.circle {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10.43vh;
+  left: 46.51vw;
+  background-color: rgba(72, 84, 87, 1);
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+}
+
+.input::placeholder {
+  color: #fff;
+}
+
+input[type="text"] {
+  text-align: center;
+  color: #fff;
+}
+
+.game-name {
+  position: absolute;
+  top: 30.86vh;
+  left: 31.77vw;
+  width: 36.45vw;
+  height: 3.15vh;
+  background-color: #485457;
+}
+
+.history {
+  position: absolute;
+  top: 36.86vh;
+  left: 31.77vw;
+  width: 36.45vw;
+  height: 6.3vh;
+  background-color: #485457;
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 45.43vh;
+  left: 31.77vw;
+  width: 36.45vw;
+  height: 3.15vh;
+}
+
+.date {
+  height: 100%;
+  width: 17.7vw;
+  background-color: #485457;
+}
+
+.riddles {
+  position: absolute;
+  top: 51.3vh;
+  left: 31.77vw;
+  width: 36.45vw;
+  height: 12.6vh;
+  background-color: #485457;
+}
+
+.btn-block {
+  position: absolute;
+  top: 86.19vh;
+  left: 44.68vw;
+  width: 10.625vw;
+  height: 4.78vh;
+  background: linear-gradient(
+    180deg,
+    #0a4b79 0%,
+    #4889b7 99.98%,
+    rgba(8, 51, 81, 0.06) 99.99%,
+    #0b618f 100%
+  );
+  text-align: center;
+  color: #d2d0ce;
+  padding-top: 0.1vh;
+  font-size: 19px;
+}
+
+.inscriptionBlock {
+  position: absolute;
+  top: 50vh;
+  left: 44.42vw;
+}
+
+.inscription {
+  font-size: 19px;
+  color: #d2d0ce;
+}
+
+.riddlesBlock {
+  position: absolute;
+  top: 54.5vh;
+  left: 31.77vw;
+  width: 36.4vw;
+  height: 28vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blockSize {
+  height: 100%;
+  width: 48.5%;
+}
+
+.secondColumn {
+  background-color: #485457;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::placeholder {
+  text-align: center;
+  font-size: 19px;
+  color: #fff;
+}
+
+textarea {
+  display: block;
+  border: none;
+  resize: none;
+}
+
+.inputStyles {
+  width: 100%;
+  height: 3.1vh;
+  background-color: #485457;
+  margin-bottom: 1.6vh;
+}
+
+.placeLegend {
+  width: 100%;
+  height: 9.2vh;
+  background-color: #485457;
+  margin-bottom: 1.6vh;
+}
+
+.btn {
+  width: 100%;
+  height: 3.1vh;
+  padding: 5px;
+  background: linear-gradient(
+    180deg,
+    #0a4b79 0%,
+    #4889b7 99.98%,
+    rgba(8, 51, 81, 0.06) 99.99%,
+    #0b618f 100%
+  );
+  text-align: center;
+  color: #d2d0ce;
+}
+
+.sendData {
+  position: absolute;
+  top: 89vh;
+  left: 7vw;
+  width: 100px;
+  height: 60px;
+  padding: 10px;
+  background: linear-gradient(
+    180deg,
+    #0a4b79 0%,
+    #4889b7 99.98%,
+    rgba(8, 51, 81, 0.06) 99.99%,
+    #0b618f 100%
+  );
+  text-align: center;
+  color: #d2d0ce;
+  font-size: 20px;
+}
+
+#placeLegendID {
+  text-align: center;
+}
+
+.none {
+  display: none;
+}

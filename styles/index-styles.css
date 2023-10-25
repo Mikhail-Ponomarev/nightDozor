@@ -1,0 +1,281 @@
+/* обнуление стилей */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+ul,
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+address {
+  font-style: normal;
+}
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+input::-ms-clear {
+  display: none;
+}
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+label {
+  cursor: pointer;
+}
+legend {
+  display: block;
+}
+
+body {
+  background: no-repeat center/100%
+    url("../background-img/background-picture-1.png");
+  height: 100%;
+}
+
+.inscription {
+  margin-top: 2.71vh;
+  margin-left: 18.64vw;
+  width: 62.76vw;
+  height: 13.5vh;
+}
+
+.inscriptionH1 {
+  text-align: center;
+  font-size: 125px;
+  color: rgb(226, 221, 145);
+  opacity: 0.5;
+}
+
+.half-circle {
+  margin-top: 3.8vh;
+  margin-left: 37.44vw;
+  margin-bottom: 0%;
+  width: 30vw;
+  height: 29vh;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background-color: rgba(0, 0, 0, 1);
+  opacity: 0.55;
+}
+
+.div-p {
+  display: inline-block;
+  width: 17.7vw;
+  height: 2.71vh;
+  position: absolute;
+  left: 43.56%;
+  top: 27%;
+  text-align: center;
+}
+
+.circle-p {
+  color: #fff;
+  font-size: 190%;
+}
+
+.circle {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  background-color: rgba(72, 84, 87, 1);
+  margin-left: 48.9%;
+  position: absolute;
+  top: 33%;
+}
+
+.menu {
+  margin-top: 0%;
+  height: 46vh;
+  width: 30vw;
+  margin-left: 37.44%;
+  margin-right: 36.51%;
+  background-color: rgba(0, 0, 0, 1);
+  opacity: 0.55;
+}
+
+.form {
+  position: absolute;
+  left: 43.5%;
+  top: 48%;
+  width: 17.4vw;
+  height: 7.93%;
+}
+
+.incorrectData {
+  width: 100%;
+  margin-top: 4vh;
+  height: 4.15vh;
+}
+
+.incorrectDataText {
+  display: block;
+  color: brown;
+  font-size: 20px;
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+.input-block {
+  display: flex;
+  margin-top: 2vh;
+  margin-bottom: 13.35px;
+  width: 100%;
+  height: 3.19vh;
+  background-color: #485457;
+}
+
+.password-block {
+  display: flex;
+  margin-top: 13.35px;
+  width: 100%;
+  height: 3.19vh;
+  margin-bottom: 3, 15vh;
+  background-color: #485457;
+}
+
+.img {
+  height: 100%;
+  width: 10%;
+  border-right: solid;
+  border-color: #3d474a;
+  border-width: 3px;
+  padding: 4px;
+  padding-top: 5.5px;
+}
+
+.img-form {
+  width: 100%;
+  height: 100%;
+}
+
+input[type="text"] {
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+}
+
+input[type="password"] {
+  text-align: center;
+}
+
+.password {
+  width: 100%;
+  height: 100%;
+}
+
+.checkbox-row {
+  display: flex;
+  margin-top: 0.876vh;
+  margin-left: 2.3vw;
+}
+
+.span-checkbox {
+  margin-left: 0.6rem;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: Bookman Old Style;
+  font-style: italic;
+  width: 100%;
+}
+
+.checkbox {
+  margin-top: 0.15rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #485457;
+  border: solid;
+  border-width: 1.5px;
+}
+
+.checkbox-img {
+  background: no-repeat center/100% url("../images/green-check-mark.png");
+  position: relative;
+}
+
+.img-form-email {
+  width: 100%;
+  height: 100%;
+}
+
+.link {
+  margin-left: 47%;
+  width: 10.62%;
+  height: 4.78%;
+  text-align: center;
+  color: #d2d0ce;
+  font-size: 118%;
+  background: linear-gradient(
+    180deg,
+    #0a4b79 0%,
+    #4889b7 99.98%,
+    rgba(8, 51, 81, 0.06) 99.99%,
+    #0b618f 100%
+  );
+  position: absolute;
+  top: 88%;
+}

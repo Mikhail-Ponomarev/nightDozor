@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="vievport" content="width=device-widtgh, initial-scale=1.0" />
+    <title>Create game page</title>
+    <link rel="stylesheet" href="styles/create-game-styles.css" />
+  </head>
+  <body>
+    <div class="main-block"></div>
+    <div class="circle"></div>
+    <div class="game-name">
+      <input
+        type="text"
+        value=""
+        placeholder="Название игры"
+        class="input"
+        id="gameNameID"
+        name="nameGameInput"
+      />
+    </div>
+    <div class="history">
+      <input
+        type="text"
+        value=""
+        placeholder="История (легенда)"
+        class="input"
+        id="historyID"
+        name="historyInput"
+      />
+    </div>
+    <div class="flex-cont">
+      <div class="date">
+        <input
+          type="text"
+          value=""
+          placeholder="Дата начала"
+          class="input"
+          id="dateStartID"
+          name="dateStartInput"
+        />
+      </div>
+      <div class="date">
+        <input
+          type="text"
+          value=""
+          placeholder="Дата конца"
+          class="input"
+          id="dateEndID"
+          name="dateEndInput"
+        />
+      </div>
+    </div>
+    <div class="inscriptionBlock">
+      <p class="inscription">Создание загадки</p>
+    </div>
+
+    <div class="riddlesBlock">
+      <div class="firstColumn blockSize">
+        <div class="inputStyles">
+          <input
+            type="text"
+            class="input"
+            id="difficultyLevelID"
+            placeholder="Уровень сложности"
+            value=""
+            name="difficultyLevelInput"
+          />
+        </div>
+        <div class="placeLegend">
+          <textarea
+            name="placeLegendTextarea"
+            id="placeLegendID"
+            cols="30"
+            rows="4"
+            placeholder="Легенда места"
+          ></textarea>
+        </div>
+        <div class="inputStyles">
+          <input
+            type="text"
+            class="input"
+            id="placeID"
+            placeholder="Само место"
+            value=""
+            name="placeInput"
+          />
+        </div>
+        <div class="inputStyles">
+          <input
+            type="text"
+            class="input"
+            id="responceID"
+            placeholder="Ответ"
+            value=""
+            name="responceInput"
+          />
+        </div>
+        <button class="btn">Создать загадку</button>
+      </div>
+      <div class="secondColumn blockSize">
+        <textarea
+          name="riddlesList"
+          id="riddlesListID"
+          cols="30"
+          rows="10"
+          placeholder="Список загадок"
+        ></textarea>
+      </div>
+    </div>
+    <button class="btn-block">Создать</button>
+    <button class="sendData">send</button>
+    <script type="module" src="scripts/createTask.mjs"></script>
+  </body>
+</html>
